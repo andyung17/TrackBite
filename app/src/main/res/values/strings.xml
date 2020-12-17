@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Diabetic Meal Tracker</string>
+    <string name="title_activity_notifcation__setup__meal">Notifcation_Setup_Meal</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+    <string-array name="sex">
+        <item>"Male"</item>
+        <item>"Female"</item>
+    </string-array>
+
+    <string-array name="unit1">
+        <item>"Cm-Inches"</item>
+        <item>"Inches-Cm"</item>
+    </string-array>
+
+    <style name="SpinnerTheme">
+        <item name="android:fontFamily">@font/merriweather_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#404040</item>
+    </style>
+
+</resources>

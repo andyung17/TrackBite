@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+    <EditText
+        android:id="@+id/textEmail"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="20"
+        android:fontFamily="@font/merriweather_bold"
+        android:gravity="center_horizontal"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="#786F6F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <EditText
+        android:id="@+id/textPassword"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:ems="20"
+        android:fontFamily="@font/merriweather_bold"
+        android:gravity="center_horizontal"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#786F6F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/my_button_design"
+        android:fontFamily="@font/titillium_web_semibold"
+        android:onClick="loginButtonClick"
+        android:text="Login"
+        android:textSize="18dp"
+        app:backgroundTint="@color/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <Button
+        android:id="@+id/btn_Register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button_design"
+        android:fontFamily="@font/titillium_web_semibold"
+        android:onClick="registerButtonClick"
+        android:text="Register"
+        android:textSize="18dp"
+        app:backgroundTint="@color/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.795" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/merriweather_bold"
+        android:gravity="center"
+        android:text="Welcome to TrackBite"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+</androidx.constraintlayout.widget.ConstraintLayout>

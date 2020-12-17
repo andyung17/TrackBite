@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diabeticmealtracker">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DiabeticMealTracker">
+        <activity android:name=".CanadaFoodGuideReference"></activity>
+        <activity android:name=".DailyIntakePage" />
+        <activity android:name=".YogaInput" />
+        <activity android:name=".MainScreenPage" />
+        <activity android:name=".RegisterPage" />
+        <activity android:name=".ScanNutritionalFacts" />
+        <activity android:name=".SuccessExerciseInput_Page" />
+        <activity android:name=".UpdateProfilePage" />
+        <activity android:name=".ProfilePage" />
+        <activity android:name=".Basic_Input" />
+        <activity android:name=".Manual_Input" />
+        <activity android:name=".Barcode_Scan" />
+        <activity android:name=".Detailed_Input" />
+        <activity android:name=".DanceInput" />
+        <activity android:name=".ExerciseChoice" />
+        <activity android:name=".ExerciseInput" />
+        <activity android:name=".Data_Analysis_Page" />
+        <activity android:name=".ExerciseAnalysis_Page" />
+        <activity android:name=".ExerciseGraph_Page" />
+        <activity android:name=".FoodAnalysis_Page" />
+        <activity android:name=".FoodGraph_Page" />
+        <activity android:name=".Exercise_Page" />
+        <activity android:name=".Database_Page" />
+        <activity android:name=".Input_Page" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyFirebaseInstanceService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

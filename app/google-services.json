@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "554674448921",
+    "firebase_url": "https://diabetic-mealtime-tracker.firebaseio.com",
+    "project_id": "diabetic-mealtime-tracker",
+    "storage_bucket": "diabetic-mealtime-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554674448921:android:f158baceaace250684d888",
+        "android_client_info": {
+          "package_name": "com.example.diabeticmealtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554674448921-hlklghea0ph003gcaa83ortibeq52qg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAxvs6Q3hmrKljYyw-y3SDyJsqrgC6fAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554674448921-hlklghea0ph003gcaa83ortibeq52qg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

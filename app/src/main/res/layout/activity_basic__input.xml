@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context=".Basic_Input">
+
+
+    <Button
+        android:id="@+id/basicInputClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button_design"
+        android:text="Clear"
+        android:textSize="18dp"
+        android:fontFamily="@font/titillium_web_semibold"
+        app:backgroundTint="@color/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+    <Button
+        android:id="@+id/basicInputAdd"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button_design"
+        android:text="Add Food"
+        android:textSize="18dp"
+        android:fontFamily="@font/titillium_web_semibold"
+        app:backgroundTint="@color/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button_design"
+        android:onClick="backBasicInputPage"
+        android:text="Back"
+        android:textSize="18dp"
+        android:fontFamily="@font/titillium_web_semibold"
+        app:backgroundTint="@color/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+    <EditText
+        android:id="@+id/basicInputCalories"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/merriweather_bold"
+        android:gravity="center"
+        android:hint="Calories per Serving (g)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
+
+    <Spinner
+        android:id="@+id/mealSpinner"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:theme="@style/SpinnerTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <EditText
+        android:id="@+id/basicInputName"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name of Food"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:fontFamily="@font/merriweather_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <EditText
+        android:id="@+id/basicInputServing"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Serving Size"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:fontFamily="@font/merriweather_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <EditText
+        android:id="@+id/basicInputFat"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/merriweather_bold"
+        android:gravity="center"
+        android:hint="Fats per Serving (g)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <EditText
+        android:id="@+id/basicInputSugar"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/merriweather_bold"
+        android:gravity="center"
+        android:hint="Sugar per Serving (g)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <EditText
+        android:id="@+id/basicInputFibre"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/merriweather_bold"
+        android:gravity="center"
+        android:hint="Fibre per Serving (g)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <EditText
+        android:id="@+id/basicInputCarbs"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/merriweather_bold"
+        android:gravity="center"
+        android:hint="Carbs per Serving (g)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="Basic Input"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
